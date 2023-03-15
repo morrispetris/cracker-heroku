@@ -9,8 +9,8 @@
 		},
 		{
 			"ImportPath": "github.com/ls0f/cracker",
-			"Comment": "v2.2.3-8-g9143477",
-			"Rev": "9143477ca4ca5f6ce633c2c4c0a368158264d114"
+			"Comment": "v2.2.2",
+			"Rev": "aa292819dbcf0c8ef86e0c092c414b617122aa6a"
 		},
 		{
 			"ImportPath": "github.com/pborman/uuid",
