@@ -4,6 +4,6 @@ RUN chmod +x /bin/linux_amd64_server
 RUN useradd -m heroku
 USER heroku
 EXPOSE 443
-CMD linux_amd64_server -addr :443 -secret 12345678 -logtostderr
+CMD linux_amd64_server -addr :5009 -secret 12345678 -logtostderr
 
 
