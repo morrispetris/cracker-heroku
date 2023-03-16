@@ -3,7 +3,7 @@ RUN curl -sSL /bin https://github.com/ls0f/cracker/releases/download/v2.3.0/linu
 RUN chmod +x /bin/linux_amd64_server
 RUN useradd -m heroku
 USER heroku
-EXPOSE 5009
-CMD linux_amd64_server -addr :5009 -secret 12345678 -logtostderr
+EXPOSE 8080
+CMD linux_amd64_server -addr :8080 -secret 12345678 -logtostderr
 
 
