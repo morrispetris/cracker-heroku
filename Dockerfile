@@ -1,5 +1,5 @@
 FROM heroku/heroku:20
-RUN curl -sSL https://github.com/ls0f/cracker/releases/download/v2.3.0/linux_amd64_local 
+RUN curl -sSL https://github.com/ls0f/cracker/releases/download/v2.3.0/linux_amd64_server
 RUN chmod +x /linux_amd64_server
 RUN useradd -m heroku
 USER heroku
